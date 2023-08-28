@@ -52,7 +52,7 @@ export default {
             })
         },
         signOut(){
-            this.$store.commit('setUser', "")
+            this.$store.commit('setUser', )
             this.$router.push('/')
         }
 
